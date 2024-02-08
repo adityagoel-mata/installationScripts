@@ -21,3 +21,9 @@ echo 'deb https://packages.cloud.google.com/apt kubernetes-xenial main' | sudo t
 sudo apt update
 sudo apt install kubeadm=1.20.0-00 kubectl=1.20.0-00 kubelet=1.20.0-00 -y
 
+
+#Reset any Kubeadm installations
+sudo kubeadm reset pre-flight checks
+
+
+echo 'Now execute the join command from the master node with sudo and append --v=5 at the end.'
