@@ -1,4 +1,4 @@
-#!/bin.bash
+#!/bin/bash
 
 
 curl https://baltocdn.com/helm/signing.asc | gpg --dearmor | sudo tee /usr/share/keyrings/helm.gpg > /dev/null
