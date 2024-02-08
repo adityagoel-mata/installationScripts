@@ -31,5 +31,5 @@ kubectl apply -f https://github.com/weaveworks/weave/releases/download/v2.8.1/we
 sudo kubeadm token create --print-join-command     #prints the join command
 
 
-echo 'Now expose port 6443 in the security group of your worker node to connect to Master'
+echo 'Now expose port 6443 in the security group of your Master Node for the worker node to connect to Master'
 
