@@ -13,4 +13,3 @@ pipeline {
         }
     }
 }
-// Test-case
